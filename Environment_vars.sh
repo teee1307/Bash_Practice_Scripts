@@ -8,7 +8,7 @@ echo $(printenv | grep MY_VARIABLE)
 export AGE=22
 age=22
 
-#child process both age and AGE Accessible 
+#both age and AGE Accessible since the commands of the other script are integrated here
 #source ~/Bash_Scripts_Practice/test_child.sh
 
 # Run another independent process (subshell)
