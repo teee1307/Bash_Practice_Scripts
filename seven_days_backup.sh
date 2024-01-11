@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the directory where you want to search for files
-path=$1
+search_directory=$1
 
 # Use find to get the list of files and sort them based on the date in the filename
 files_to_keep=$(find "$search_directory" -type f -name "batch_log-*" | \
